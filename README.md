@@ -1,5 +1,11 @@
 #  Web application for image recognition using NodeJS, MongoDB, TF, GCP (Containerization using Docker is currently been working on...)
 
+
+![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo1.png)
+
+![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo2.png)
+
+
 Step 1: The Neural Network model is already uploaded to the GCP and integrated into the app, all you have to do is to unzip the "MLmodel.zip" file. 
 
 
