@@ -6,7 +6,7 @@
 ![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo2.png)
 
 
-Step 1: The Neural Network model is already uploaded to the GCP and integrated into the app, all you have to do is to unzip the "MLmodel.zip" file. 
+Step 1: The containerized Neural Network model is already uploaded to the GCP and integrated into the app, all you have to do is to unzip the "MLmodel.zip" file. 
 
 
 Step 2: Install MongoDB 
@@ -37,3 +37,16 @@ Step 5: Running the application:
     nodemon bin/www
     
     Your local webapp can be accessed at 0.0.0.0:3000
+    
+    
+EXTRA:
+
+The neural network model is up in the GCP and running 24/7, therefore, if you just want to use the model, feel free to use it.
+
+Download and unzip the "MLmodel.zip", remove the '.py' extension
+
+Call the file in the terminal:
+
+    MLmodel/inception_client --server=35.202.216.34:9000 --image= absolute/path/to/your/image
+    
+![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo3.png)
