@@ -1,4 +1,4 @@
-#  Web application for image recognition using NodeJS, MongoDB, TF, GCP (Containerization using Docker is currently been working on...)
+#  Machine Learning Web application for image recognition using NodeJS, MongoDB, TF, GCP (Containerization using Docker is currently been working on...)
 
 
 ![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo1.png)
