@@ -34,7 +34,7 @@ Step 5: Running the application:
     Change directory to the webapp dir ad run using command nodemon:
     
     cd /Users/xxxx/Desktop/WEBAPP_BACKUP
-    nodemon bin/www
+    npm start
     
     Your local webapp can be accessed at 0.0.0.0:3000
     
