@@ -31,7 +31,7 @@ Step 4: Install required dependencies
 
 Step 5: Running the application:
 
-    Change directory to the webapp dir ad run using command nodemon:
+    Change directory to the webapp dir ad run using command npm:
     
     cd /Users/xxxx/Desktop/WEBAPP_BACKUP
     npm start
