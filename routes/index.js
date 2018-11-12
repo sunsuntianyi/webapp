@@ -49,7 +49,7 @@ router.post('/upload', function(req, res) {
               throw error;
             };
             // res.redirect('/test');
-            var pyProg = spawn('python', ['./MLmodel/inception_client.py', '--server=35.202.216.34:9000', '--image=' + './public/' + fullPath]);
+            var pyProg = spawn('python', ['./MLmodel/inception_client.py', '--server=35.196.81.176:9000', '--image=' + './public/' + fullPath]);
             pyProg.stdout.on('data', function (data) {
             res.send(data.toString());
           });
