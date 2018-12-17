@@ -47,6 +47,6 @@ Download and unzip the "MLmodel.zip", remove the '.py' extension
 
 Call the file in the terminal:
 
-    MLmodel/inception_client --server=35.202.216.34:9000 --image= absolute/path/to/your/image
+    MLmodel/inception_client --server=35.196.81.176:9000 --image= absolute/path/to/your/image
     
 ![alt text](https://github.com/sunsuntianyi/webapp/blob/master/demo3.png)
